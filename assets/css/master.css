@@ -4,9 +4,9 @@ header {
   width: 100%;
   height: auto;
   position: fixed;
-  background-color: white;
+  background-color: #252429;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  border-bottom: 2px solid lightgrey;
+  border-bottom: 2px solid darkgrey;
   top: 0;
 }
 
@@ -25,19 +25,18 @@ nav li {
 
 nav button {
   text-decoration: none;
-  color: black;
+  color: #CECED0;
   font-size: 16px;
+  font-family: Arial, serif;
   text-align: center;
   border: none;
   padding: 15px 10px;
-  background-color: white;
-  transition-duration: 0.4s;
+  background-color: #252429;
+  transition-duration: 0.1s;
   border-radius: 2px;
   float: left;
-  transition: all .5s ease-in-out;
 }
 
 nav .button:hover {
-  background-color: yellow;
-  transform: scale(1.1);
+  border-bottom: 2px thin #33ccff;
 }
