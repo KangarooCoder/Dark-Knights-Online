@@ -41,12 +41,3 @@ nav .button:hover {
   background-color: yellow;
   transform: scale(1.1);
 }
-
-div.troll {
-  margin-top: 55px;
-}
-
-div.troll img {
-  height: 100%;
-  width: 100%;
-}
