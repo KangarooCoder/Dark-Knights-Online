@@ -4,11 +4,14 @@ header {
   width: 100%;
   height: auto;
   position: fixed;
-  background-color: Grey;
+  background-color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border-bottom: 2px solid lightgrey;
 }
 
 img {
   height: 50px;
+  margin-left: 4px;
 }
 
 div.logo {
@@ -19,14 +22,19 @@ nav li {
   display: inline-block;
 }
 
-nav a {
+nav button {
   text-decoration: none;
   color: black;
+  font-size: 16px;
+  text-align: center;
+  border: none;
   padding: 15px 10px;
-  background-color: Grey;
+  background-color: white;
   transition-duration: 0.4s;
+  border-radius: 2px;
+  float: left;
 }
 
-nav a:hover {
-
+nav .button:hover {
+  background-color: darkgrey;
 }
