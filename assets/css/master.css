@@ -33,8 +33,10 @@ nav button {
   transition-duration: 0.4s;
   border-radius: 2px;
   float: left;
+  transition: all .5s ease-in-out;
 }
 
 nav .button:hover {
   background-color: yellow;
+  transform: scale(1.15);
 }
