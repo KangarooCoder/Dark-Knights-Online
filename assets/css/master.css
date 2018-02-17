@@ -32,7 +32,7 @@ nav button {
   border: none;
   padding: 15px 10px;
   background-color: #252429;
-  transition-duration: 0.4s;
+  border-bottom: 1px solid #252429;
   border-radius: 2px;
   float: left;
 }
